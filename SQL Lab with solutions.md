@@ -211,9 +211,8 @@ DELETE FROM
 WHERE
     `active` = 0;
 ```
-I am unable to delete the non-active users from the custome table. This table has 2 
-foreign keys: at table "payment" and "rental" that references the "customer_id" key with the foreign 
-key constrain "ON DELETE RESTRICT", which is the default constrain when adding a foreign key
+I am unable to delete the non-active users from the custome table.     
+This table has 2 foreign keys: at table "payment" and "rental" that references the "customer_id" key with the foreign key constrain "ON DELETE RESTRICT", which is the default constrain when adding a foreign key
 in MySQL.
  
 Asuming that the business agrees and there are not compliece restrictions on deleting this recors,
