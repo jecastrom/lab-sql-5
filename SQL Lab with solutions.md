@@ -66,7 +66,7 @@ VALUES
         NOW()
     );
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419250-f59110ed-053c-4cb2-abef-d75ed6556f5d.png" alt="Drawing" style="width: 800px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419250-f59110ed-053c-4cb2-abef-d75ed6556f5d.png" alt="Drawing" style="width: 1000px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
