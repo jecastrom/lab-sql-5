@@ -31,7 +31,10 @@ The database is structured as follows:
 ## Instructions
 
 ### Query 1
-Drop column `picture` from `staff`.         
+Drop column `picture` from `staff`. 
+
+
+<img src="" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
 
