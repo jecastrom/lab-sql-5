@@ -262,7 +262,7 @@ FROM
 
 
 
-<a href="">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
+<a href="https://github.com/jecastrom/lab-sql-5/blob/03bf2505f84111514cd584b2eece3891462eec9b/files_for_lab/SQL%20Lab%205%20solutions%20script%20only.sql">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
 
