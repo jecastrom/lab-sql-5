@@ -90,7 +90,7 @@ INSERT INTO
 VALUES
     (DEFAULT, NOW(), 1, 130, NULL, 1, NOW());
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419268-f4acd914-9032-4486-9a31-d8cba73c911f.png" alt="Drawing" style="width: 600px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419268-f4acd914-9032-4486-9a31-d8cba73c911f.png" alt="Drawing" style="width: 700px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
