@@ -39,7 +39,7 @@ ALTER TABLE
     staff DROP COLUMN picture;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147419193-d74c5bee-0af8-4abe-8368-2bb35a747c90.png" alt="Drawing" style="width: 500px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419193-d74c5bee-0af8-4abe-8368-2bb35a747c90.png" alt="Drawing" style="width: 650px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
@@ -66,7 +66,7 @@ VALUES
         NOW()
     );
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419250-f59110ed-053c-4cb2-abef-d75ed6556f5d.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419250-f59110ed-053c-4cb2-abef-d75ed6556f5d.png" alt="Drawing" style="width: 800px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
@@ -90,7 +90,7 @@ INSERT INTO
 VALUES
     (DEFAULT, NOW(), 1, 130, NULL, 1, NOW());
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419268-f4acd914-9032-4486-9a31-d8cba73c911f.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419268-f4acd914-9032-4486-9a31-d8cba73c911f.png" alt="Drawing" style="width: 600px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
@@ -111,7 +111,8 @@ FROM
 WHERE
     `active` = (0);
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419293-2e37f2f5-e66e-436b-8827-281ed0c83600.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419293-2e37f2f5-e66e-436b-8827-281ed0c83600.png" alt="Drawing" style="width: 350px;"/>          
+
  or with a bit more visivility 
  and to store the query 
  on a view for later use:         
@@ -142,7 +143,7 @@ GROUP BY
     1,
     2;
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419317-c38e7f25-f046-4a7e-b3e6-3dc7c4c8fecf.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419317-c38e7f25-f046-4a7e-b3e6-3dc7c4c8fecf.png" alt="Drawing" style="width: 350px;"/>
 
 
 
@@ -163,7 +164,7 @@ FROM
 LIMIT
     0;
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419327-c341d7b8-7701-4a6a-a2a7-5510f0c26998.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419327-c341d7b8-7701-4a6a-a2a7-5510f0c26998.png" alt="Drawing" style="width: 550px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
@@ -194,7 +195,7 @@ FROM
 WHERE
     date(last_update) = '2021-12-26';
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419339-195c4404-9d17-4379-9ccf-495a55a2c57e.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419339-195c4404-9d17-4379-9ccf-495a55a2c57e.png" alt="Drawing" style="width: 350px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
@@ -258,7 +259,7 @@ SELECT
 FROM
     users_status;
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419363-9352ef6f-a821-4d58-bf3d-9b34b5efc42c.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419363-9352ef6f-a821-4d58-bf3d-9b34b5efc42c.png" alt="Drawing" style="width: 350px;"/>
 
 
 
