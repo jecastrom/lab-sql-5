@@ -31,11 +31,15 @@ The database is structured as follows:
 ## Instructions
 
 ### Query 1
-Drop column `picture` from `staff`.
+Drop column `picture` from `staff`.         
+
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
 
 
 ### Query 2
-A new person is hired to help Jon. Her name is TAMMY SANDERS, and she is a customer. Update the database accordingly.
+A new person is hired to help Jon. Her name is TAMMY SANDERS, and she is a customer. Update the database accordingly.           
+
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
 
 
 ### Query 3
@@ -57,14 +61,23 @@ Delete non-active users, but first, create a _backup table_ `deleted_users` to s
 - #### Query 4a
    Check if there are any non-active users
 
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
+
 
 - #### Query 4b
    Create a table _backup table_ as suggested
+
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
 
 
 - #### Query 4c
   Insert the non active users in the table _backup table_
 
+  <a href="#Lab-SQL-Queries-5">Go to Top</a>
+
  
 - #### Query 4d
   Delete the non active users from the table _customer_
+
+  <a href="#Lab-SQL-Queries-5">Go to Top</a>
+  
