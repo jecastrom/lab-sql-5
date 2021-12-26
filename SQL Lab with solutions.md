@@ -110,7 +110,8 @@ WHERE
 <img src="" alt="Drawing" style="width: 200px;"/>
  or with a bit more visivility 
  and to store the query 
- on a view for later use:
+ on a view for later use:         
+
 
 ```sql
 CREATE VIEW users_status AS
@@ -252,7 +253,7 @@ FROM
 <img src="" alt="Drawing" style="width: 200px;"/>
 
 
-
+<a href="">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
 
