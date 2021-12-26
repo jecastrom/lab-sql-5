@@ -76,11 +76,11 @@ Delete non-active users, but first, create a _backup table_ `deleted_users` to s
 - #### Query 4c
   Insert the non active users in the table _backup table_
 
-  <a href="#Lab-SQL-Queries-5">Go to Top</a>
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
 
  
 - #### Query 4d
   Delete the non active users from the table _customer_
 
-  <a href="#Lab-SQL-Queries-5">Go to Top</a>
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
 
