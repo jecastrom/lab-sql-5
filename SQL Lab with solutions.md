@@ -53,6 +53,9 @@ Add rental for movie "Academy Dinosaur" by Charlotte Hunter from Mike Hillyer at
     
     Use similar method to get `inventory_id`, `film_id`, and `staff_id`.
 
+
+<a href="#Lab-SQL-Queries-5">Go to Top</a>
+
    
 
 ### Query 4
@@ -80,4 +83,4 @@ Delete non-active users, but first, create a _backup table_ `deleted_users` to s
   Delete the non active users from the table _customer_
 
   <a href="#Lab-SQL-Queries-5">Go to Top</a>
-  
+
