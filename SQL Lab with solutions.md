@@ -111,7 +111,7 @@ WHERE
  or with a bit more visivility 
  and to store the query 
  on a view for later use:         
-
+<br></br>
 
 ```sql
 CREATE VIEW users_status AS
