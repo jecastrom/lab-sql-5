@@ -234,15 +234,11 @@ REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
 
 
 
-This table has 2 foreign keys: at table "payment" and "rental" that references the "customer_id" key with the foreign key constrain "ON DELETE RESTRICT", which is the default constrain when adding a foreign key
-in MySQL.
- 
-Asuming that the business agrees and there are not compliece restrictions on deleting this recors,
-for me the best solution would be to change the constrain from "ON DELETE RESTRICT ON UPDATE CASCADE"
-to "ON DELETE CASCADE ON UPDATE CASCADE". This way the non-active costomers along with their payment 
-history would be deleted.
+The "customer" table is connected to two other tables as foreign keys at "payment" and "rental," with the default restrict constraint of ON DELETE RESTRICT.
 
-To alter the table and drop the previous constrait, we need the constraint name:
+Assumimg that the firm agrees and there are no compliance limitations on deleting this record, the ideal solution for me would be to change the constraint from "ON DELETE RESTRICT ON UPDATE CASCADE" to "ON DELETE CASCADE ON UPDATE CASCADE." This way, as well as any non-active usersand their payment history, they would be removed.
+
+We will need to reference the constraint name in order to change the table and remove the previous constrain:
 
 ```sql
 SHOW CREATE TABLE payment;
