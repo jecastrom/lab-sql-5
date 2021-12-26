@@ -211,7 +211,25 @@ DELETE FROM
 WHERE
     `active` = 0;
 ```
-I am unable to delete the non-active users from the custome table.     
+I am unable to delete the non-active users from the custome table.    
+
+Error messages:        
+
+```sql
+Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`payment`, CONSTRAINT `fk_payment_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)     
+```   
+
+
+and   
+
+
+```sql
+Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`rental`, CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+```
+
+
+
+
 This table has 2 foreign keys: at table "payment" and "rental" that references the "customer_id" key with the foreign key constrain "ON DELETE RESTRICT", which is the default constrain when adding a foreign key
 in MySQL.
  
