@@ -39,7 +39,7 @@ ALTER TABLE
     staff DROP COLUMN picture;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147419193-d74c5bee-0af8-4abe-8368-2bb35a747c90.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419193-d74c5bee-0af8-4abe-8368-2bb35a747c90.png" alt="Drawing" style="width: 400px;"/>
 
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
