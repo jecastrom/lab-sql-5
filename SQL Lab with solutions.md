@@ -216,7 +216,9 @@ I am unable to delete the non-active users from the custome table.
 Error messages:        
 
 ```sql
-Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`payment`, CONSTRAINT `fk_payment_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)     
+Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint 
+fails (`sakila`.`payment`, CONSTRAINT `fk_payment_customer` FOREIGN KEY (`customer_id`) 
+REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)     
 ```   
 
 
@@ -224,7 +226,9 @@ and
 
 
 ```sql
-Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`rental`, CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint 
+fails (`sakila`.`rental`, CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) 
+REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
 ```
 
 
