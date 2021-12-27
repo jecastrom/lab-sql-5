@@ -307,7 +307,7 @@ FROM
 Non-active users have been successfully removed.
 
 
-<a href="https://github.com/jecastrom/lab-sql-5/blob/7e444caa0d1ad5e54982f2dc580090b6c8e424ff/files_for_lab/SQL%20Lab%205%20solutions%20script%20only.sql">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
+<a href="https://github.com/jecastrom/lab-sql-5/blob/255b668cb36bee302d7598a32100866aeed8ef9e/files_for_lab/SQL%20Lab%205%20solutions%20script%20only.sql">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
 
 <a href="#Lab-SQL-Queries-5">Go to Top</a>
 
