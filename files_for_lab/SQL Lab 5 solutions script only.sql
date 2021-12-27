@@ -99,6 +99,19 @@ FROM
 LIMIT
     0;
 /*
+ I've limited the number of rows to 0 in the create table statement. 
+ In this way, I'm only copying the structure of the columns I picked 
+ rather than the structure and data from the original columns. 
+ Yes, I could have filtered with a `WHERE` clause to get the non-active user's 
+ data. However, doing so would have also copied the ``last_update`` data, 
+ the timestamp of the last update on the original table.
+ 
+ When the data from the `customer_id` and `email` columns are copied 
+ over to the new table, only then does the `last_update` column get 
+ updated with a more precise timestamp, indicating that those users 
+ were deleted on that very day when the data is copied to the new table.
+ */
+/*
  Insert the non-active users in the table backup table
  */
 INSERT INTO
