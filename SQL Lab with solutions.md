@@ -271,7 +271,7 @@ To check if the non-users data deletision went as expected, removing also the
 data fron the tables customer, payment and rental related to the non-active users I
 can call one column from each table:
 
-<img src="https://user-images.githubusercontent.com/63274055/147500005-c402a5ab-a5b1-495c-9e2b-e671ed27eb4e.png" alt="" style="width: 450px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147500005-c402a5ab-a5b1-495c-9e2b-e671ed27eb4e.png" alt="" style="width: 600px;"/>
 
 
 So to view the users_status with the view I saved previously:
