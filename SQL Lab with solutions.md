@@ -24,7 +24,9 @@ Go to:
 
 The database is structured as follows:
 
-![dvdrental](https://user-images.githubusercontent.com/63274055/147394200-2fdeec2e-a41a-4094-b544-dede2b263d96.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147394200-2fdeec2e-a41a-4094-b544-dede2b263d96.png" alt="Drawing" style="width: 500px;"/>
+
 
 <br><br>
 
