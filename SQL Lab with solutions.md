@@ -267,9 +267,12 @@ DELETE FROM
 WHERE
     `active` = 0;
 ```
-To check if the non-users delete went as expected
-I do a select from the view I created previously to see 
-the count of total users statuses:
+To check if the non-users data deletision went as expected, removing also the
+data fron the tables customer, payment and rental related to the non-active users I
+can call one column from each table:
+
+
+So to view the users_status with the view I saved previously:
 
 ```sql
 SELECT
