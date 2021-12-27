@@ -1,6 +1,4 @@
-![logo_ironhack_blue 7]()
-
-<img src="https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png" alt="" style="width: 100px;"/>
+<img src="https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png" alt="" style="width: 70px;"/>
 
 # Lab SQL Queries 5
 ### Jorge Castro DAPT NOV2021
