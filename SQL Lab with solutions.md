@@ -245,6 +245,8 @@ SHOW CREATE TABLE payment;
 SHOW CREATE TABLE rental;
 ```
 
+
+
 Now having the constraint name (fk_payment_customer) and (fk_rental_customer) I can proceed
 to drop the old constraint, and add the new constraint ON DELETE CASCADE ON UPDATE CASCADE.
 
