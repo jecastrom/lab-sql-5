@@ -259,6 +259,7 @@ ALTER TABLE
 ADD
     FOREIGN KEY(customer_id) REFERENCES customer(customer_id) ON DELETE CASCADE ON UPDATE CASCADE;
 ```
+
 Now I can delete all non-active users:
 
 ```sql
@@ -267,9 +268,26 @@ DELETE FROM
 WHERE
     `active` = 0;
 ```
-To check if the non-users data deletision went as expected, removing also the
-data fron the tables customer, payment and rental related to the non-active users I
-can call one column from each table:
+
+I can use one column from each table to ensure that the non-user data deletion went according to plan: "customer," "payment," and "rental" tables, which contain data for inactive users:
+
+
+```SQL
+SELECT
+    customer.customer_id,
+    amount,
+    return_date
+FROM
+    customer
+    INNER JOIN payment ON customer.customer_id = payment.payment_id
+    INNER JOIN rental ON customer.customer_id = rental.rental_id
+WHERE
+    `active` = 0
+LIMIT
+    20;
+```
+
+
 
 <img src="https://user-images.githubusercontent.com/63274055/147500005-c402a5ab-a5b1-495c-9e2b-e671ed27eb4e.png" alt="" style="width: 600px;"/>
 

@@ -166,19 +166,37 @@ ALTER TABLE
     rental DROP FOREIGN KEY fk_rental_customer,
 ADD
     FOREIGN KEY(customer_id) REFERENCES customer(customer_id) ON DELETE CASCADE ON UPDATE CASCADE;
-/*
- Now I can delete all non-active users
- */
+-- Now I can delete all non-active users
 DELETE FROM
     customer
 WHERE
     `active` = 0;
 /*
- To check if the non-users delete went as expected
- I do a select from the view I created previously to see 
- the count of total users statuses:
+ --I can use one column from each table to ensure 
+ --that the non-user data deletion went according to plan: 
+ --"customer," "payment," and "rental" tables, which contain 
+ --data for inactive users:
+ */
+SQL
+SELECT
+    customer.customer_id,
+    amount,
+    return_date
+FROM
+    customer
+    INNER JOIN payment ON customer.customer_id = payment.payment_id
+    INNER JOIN rental ON customer.customer_id = rental.rental_id
+WHERE
+    `active` = 0
+LIMIT
+    20;
+/*
+ So to view the users_status with the view I saved previously:
  */
 SELECT
     *
 FROM
     users_status;
+/*
+ Non-active users have been successfully removed.
+ */
