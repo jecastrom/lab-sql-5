@@ -236,9 +236,9 @@ REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
 
 The "customer" table is connected to two other tables as foreign keys at "payment" and "rental," with the default restrict constraint of ON DELETE RESTRICT.
 
-Assumimg that the firm agrees and there are no compliance limitations on deleting this record, the ideal solution for me would be to change the constraint from "ON DELETE RESTRICT ON UPDATE CASCADE" to "ON DELETE CASCADE ON UPDATE CASCADE." This way, as well as any non-active usersand their payment history, they would be removed.
+In my opinion, an alternative would be to change the constraint from "ON DELETE RESTRICT ON UPDATE CASCADE" to "ON DELETE CASCADE ON UPDATE CASCADE." This way, as well as any non-active users, the user's payment and rental history, would be removed.
 
-We will need to reference the constraint name in order to change the table and remove the previous constrain:
+The name constraint name has to be passed as an argument on the ALTER TABLE statement to change the table and remove the previous constrain. For example, the constraint name can be found with the SHOW CREATE TABLE:
 
 ```sql
 SHOW CREATE TABLE payment;

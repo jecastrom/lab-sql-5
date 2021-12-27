@@ -127,18 +127,17 @@ DELETE FROM
 WHERE
     `active` = 0;
 /*
- I am unable to delete the non-active users from the custome table. This table has 2 
- foreign keys: at table "payment" and "rental" that references the "customer_id" key with the foreign 
- key constrain "ON DELETE RESTRICT", which is the default constrain when adding a foreign key
- in MySQL.
+ The "customer" table is connected to two other tables as foreign keys at "payment" 
+ and "rental," with the default restrict constraint of ON DELETE RESTRICT.
  
- Asuming that the business agrees and there are not compliece restrictions on deleting this recors,
- for me the best solution would be to change the constrain from "ON DELETE RESTRICT ON UPDATE CASCADE"
- to "ON DELETE CASCADE ON UPDATE CASCADE". This way the non-active costomers along with their payment 
- history would be deleted.
- */
-/*
- To alter the table and drop the previous constrait, we need the constraint name:
+ In my opinion, an alternative would be to change the constraint from
+ "ON DELETE RESTRICT ON UPDATE CASCADE" to "ON DELETE CASCADE ON UPDATE CASCADE." 
+ This way, as well as any non-active users, the user's payment and rental history, 
+ would be removed.
+ 
+ The name constraint name has to be passed as an argument on the ALTER TABLE statement 
+ to change the table and remove the previous constrain. For example, the constraint name 
+ can be found with the SHOW CREATE TABLE:
  */
 SHOW CREATE TABLE payment;
 SHOW CREATE TABLE rental;
@@ -162,7 +161,9 @@ DELETE FROM
 WHERE
     `active` = 0;
 /*
- To check if the non-users delete went as expected:
+ To check if the non-users delete went as expected
+ I do a select from the view I created previously to see 
+ the count of total users statuses:
  */
 SELECT
     *
