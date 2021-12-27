@@ -229,7 +229,7 @@ also
 
 > :warning: Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`rental`, CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
 
-.
+
 
 
 
@@ -278,7 +278,7 @@ FROM
     users_status;
 ```
 <img src="https://user-images.githubusercontent.com/63274055/147419363-9352ef6f-a821-4d58-bf3d-9b34b5efc42c.png" alt="Drawing" style="width: 350px;"/>
-
+Non-active users have been successfully removed.
 
 
 <a href="https://github.com/jecastrom/lab-sql-5/blob/7e444caa0d1ad5e54982f2dc580090b6c8e424ff/files_for_lab/SQL%20Lab%205%20solutions%20script%20only.sql">CLICK HERE for the SQL Lab 5 script only on .sql file</a>
