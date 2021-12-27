@@ -229,7 +229,7 @@ also
 
 > :warning: Error Code: 1451. Cannot delete or update a parent row: a foreign key constraint fails (`sakila`.`rental`, CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE)
 
-
+.
 
 
 
