@@ -277,7 +277,9 @@ SELECT
 FROM
     users_status;
 ```
-<img src="https://user-images.githubusercontent.com/63274055/147419363-9352ef6f-a821-4d58-bf3d-9b34b5efc42c.png" alt="Drawing" style="width: 350px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147419363-9352ef6f-a821-4d58-bf3d-9b34b5efc42c.png" alt="Drawing" style="width: 350px;"/>    
+
+
 Non-active users have been successfully removed.
 
 
