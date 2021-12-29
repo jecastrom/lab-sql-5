@@ -5,7 +5,7 @@
 
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official [installation link](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
 
-Go to:   
+*Go to:*   
 
 - <a href="#Query-1">Query 1</a>
 - <a href="#Query-2">Query 2</a>
